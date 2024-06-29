@@ -1,0 +1,89 @@
+.container{
+    background-color: blanchedalmond;
+    height: 387px;
+    width: 400px;
+    display: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px -3px black;
+}
+#player1{
+    color: rgb(119, 171, 119);
+    font-family: tahoma;
+    font-size: 50px;
+    padding: 10px;
+    height: 70px;
+    background-color: rgb(43, 255, 184);
+    width: 380px;
+    border-radius: 4px;
+margin-bottom: 30px;
+display: none;
+
+}
+#x,#o{
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 60px;
+    border: none;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    height: 120px;
+    width: 150px;
+    }
+#choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#x{
+    background-color: red;
+}
+#o{
+    background-color: blue;
+}
+#o:hover,#x:hover{
+   opacity: 90%;
+   box-shadow: 1px 2px 8px 2px;
+}
+.lign1{
+    display: flex;
+
+}
+.lign2{
+    display: flex;
+}
+.lign3{
+    display: flex;
+}
+.lign1 button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 60px;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    margin: 4px;
+    height: 120px;
+    width: 150px;
+    background-color: aqua;
+}
+h1 {
+    font-family: tahoma;
+}
+#reset{
+    margin-top: 20px;
+    display: none;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+
+}
